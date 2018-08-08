@@ -1,3 +1,3 @@
 <section>
-    <app-post *ngFor="let post of posts" [post]="post"></app-post>
+    <app-post *ngFor="let post of posts" [post]="post" (removePost)="onRemovePost($event)"></app-post>
 </section>
