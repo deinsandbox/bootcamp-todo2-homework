@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { PostComponent } from './post/post.component';
+import { HighlightDirective } from './highlight.directive';
+import { SizeUpDirective } from './size-up/size-up.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostComponent
+    PostComponent,
+    HighlightDirective,
+    SizeUpDirective
   ],
   imports: [
     BrowserModule
